@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+   align-items: center;
+   min-height: 100vh;    
+   background: rgb(82, 61, 91);
+}
+.container{
+    background-color: rgb(200, 110, 239);
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.button{
+    width: 4.5rem;
+    height: 4rem;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 8px;
+    font-style: bold;
+    background-color: rgb(134, 93, 160);
+}
+.btn{
+    width: 4.5rem;
+    height: 4rem;
+    font-size : 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 6px;
+    color: black;
+    background-color: rgb(134, 93, 160);
+}
+.size{
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(134, 93, 160);
+}
+.enter{
+    width: 10rem;
+    height: 4rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px; 
+    background-color: rgb(134, 93, 160);
+    color: black;
+    border-radius: 8px;
+}
+.display{
+    background-color: rgb(74, 44, 83);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+.display1 #screen{
+    background: rgb(134, 93, 160);
+    width: 24vw;
+    height: 3vh;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.display2 #answer{
+    background:rgb(134, 93, 160);
+    width: 24vw;
+    height: 6vh;
+    font-size: 35px;
+    text-align: right;
+    border: none;
+    outline: none;
+}
